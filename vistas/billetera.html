@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel = "stylesheet"
+    href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Billetera</title>
+</head>
+<body>
+<header class="header">
+    <nav class="navbar navbar-expand-lg navbar bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a href="../index.html"><img class="img-fluid img-logo"src="../img/logo.png" alt="logo de la empresa" class="header__logo"></a>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+            <div class="navbar-collapse justify-content-end collapse" id="navbarNavDropdown" style>
+            <ul class="navbar-nav header__lista">
+            <li class="header__item"><a class="header__link" href="../index.html">Salir</a></li>
+            </ul>
+            </div>
+            </div>
+        </nav>
+    
+</header>
+<section>
+<div>
+    <h1 id="billetera" class="billetera__titulo">Billetera</h1>
+</div>
+<div>
+    <h2 class="billetera__balance" id="USD">Balance <span id="balanceusd">U$D 0.0</span></h2> 
+</div>
+<div class="billetera_botones">
+    <button type="button" id="retirar_btn" class="btn btn-primary btn-lg billetera_btn">Retirar Dinero</button>
+    <button type="button" id="cargar_btn" class="btn btn-primary btn-lg billetera_btn">Cargar Dinero</button>
+</div>
+<div id="billetera_area">
+
+
+
+</div>
+<div class="logout">
+<a href="../index.html"><button class="logout__btn" id="logout">Cerrar Sesion</button></a>
+</div>
+</section>
+
+<footer class="footer">
+    <div class="footer__izq">
+        <a href="#"><img  src="../img/logo.png" alt="logo de la empresa" class="header__logo"></a>
+        <p class="footer_namecomp">Exchange Yos Copyrigth 2022</p>
+    </div>
+    <div class="footer__centro">
+        <div>
+            <p><b> Los Horneros 1640 </b>Colonia Del Sacramento, URUGUAY</p>
+        </div>
+        <div>
+            <p><b>+598 99952237</b></p>
+        </div>
+        <div class="footer__centro__mail">
+            <p><a href="mailto:villasmil.yosmer@gmail.com">info@exchangeyos.com</a></p>
+        </div>
+        
+    </div>
+    <div class="footer__der">
+        <div class="footer_rrss">
+        <a href="https://www.facebook.com/yosmer21" target="_blank"><img loading="lazy" alt="Sígueme en Facebook" height="35" width="35" src="../img/facebook-icono.png" title="Sígueme en Facebook"/></a>
+        <a href="https://www.instagram.com/yosmer21/" target="_blank"><img loading="lazy" alt="Sígueme en Instagram" height="35" width="35" src="../img/Instagram-icono.png" title="Sígueme en Instagram"/></a>
+        <a href="https://wa.me/59899952237" target="_blank"><img loading="lazy" alt="Sígueme en WhatsApp" height="35" width="35" src="../img/whatsapp-icono.png" title="Sígueme en WhatsApp"/></a>
+        <a href="https://www.linkedin.com/in/yosmer-villasmil-87271b89/" target="_blank"><img loading="lazy" alt="Sígueme en Facebook" height="35" width="35" src="../img/linkedIn.icono.png" title="Sígueme en linkedIn"/></a>
+        
+    </div>
+
+    </div>
+</footer>
+<script>
+    AOS.init();
+  </script>
+<script src="../js/billetera.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

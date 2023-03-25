@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Registro</title>
+</head>
+<body>
+    <header class="header__login">
+        <a href="../index.html"><img class="img-fluid img-logo"src="../img/logo.png" alt="logo de la empresa" class="header__logo"></a>  
+        </header>
+    <section class="registrar__area">
+        <h2 class="registrar__area__titulo">Registro</h2>
+        <form class="registrar__Form" id="signupForm">
+            <label class="registrar__label" for="">Nombre y Apellido</label>
+            <input class="registrar__input" type="text" placeholder="Nombre y Apellido" id="name" required autofocus>
+            <label class="registrar__label" for="">Mail</label>
+            <input class="registrar__input" type="email" placeholder="Email" id="email" required autofocus>
+            <label class="registrar__label" for="">Contrasena</label>
+            <input class="registrar__input" type="password" placeholder="Password" id="password" required autofocus>
+            <input class="registrar__input" type="submit" value="Registro">
+        </form>
+        <p class="registrar__p">Ya tienes una cuenta?<a href="../vistas/login.html">Iniciar Sesion</a></p>
+        <p><a href="../index.html">Salir</a></p>
+    </section>
+    <script src="../js/registrar.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
